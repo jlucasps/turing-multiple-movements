@@ -1,0 +1,43 @@
+turing-multiple-movements
+=========================
+
+Turing Machine Multiple Movements Simulator
+
+# tipo de maquina abstrata (MT, MTMH, MPilhas, MPost, etc.)
+tipo = 'MT'
+
+# Nome da maquina (breve descricao)
+nome = 'Maquina de Turing Padrao AnBn'
+
+# Informacoes para o usuario (\n seguinifica quebra de linha)
+informacoes = 'Este e um exemplo de maquina de turing padrao. Essa maquina aceita fitas AnBn'
+
+# Quantidade de estados
+qtes_estados = 6
+
+# Indicador de inicio da fita (em branco indica que nao ha indicacao)
+inicio_fita = ''
+
+# Indicador de espaco em branco
+branco = '%'
+
+# Estados finais (Array de estados finais. Lembrando que o primeiro estado sempre sera q0)
+estados_finais = [4]
+
+# Alfabeto de entrada
+alfabeto_entrada = ['a','b']
+
+#Transicoes(ORDEM: estado anterior, simbolo lido, estado posterior, simbolo escrito, movimento na fita, deslocamento)
+transicoes = [
+[0,'%',4,'%','R',1],
+[0,'a',1,'A','R',1],
+[0,'B',3,'B','R',1],
+[1,'a',1,'a','R',1],
+[1,'B',1,'B','R',1],
+[1,'b',2,'B','L',1],
+[2,'a',2,'a','L',1],
+[2,'B',2,'B','L',1],
+[2,'A',0,'A','R',1],
+[3,'B',3,'B','R',1],
+[3,'%',4,'%','R',1],
+]
