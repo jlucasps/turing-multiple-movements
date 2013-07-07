@@ -2,7 +2,7 @@
 # ##############################################################################
 # Trabalho de Teoria da Computação - COM 167
 # Simulador de Máquinas de Turing com Múltiplos Movimentos
-# Copyright 2009 - Hudson Flávio, João Lucas, Renan Martins
+# Hudson Flávio, João Lucas, Renan Martins
 # Arquivo parser.py
 # -> Este arquivo implementa tres classes: ParserMachine, ParserTape e ParserKeyboard
 # ###############################################################################

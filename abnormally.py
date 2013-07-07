@@ -2,7 +2,7 @@
 # ##############################################################################
 # Trabalho de Teoria da Computaçao - COM 167
 # Simulador de Máquinas de Turing com Múltiplos Movimentos
-# Copyright 2009 - Hudson Flávio, João Lucas, Renan Martins
+# Hudson Flávio, João Lucas, Renan Martins
 # Arquivo abnormally.py
 # -> Este arquivo implementa a classe Abnormally (Exception)s
 # ###############################################################################
